@@ -1,0 +1,60 @@
+.container{
+    display: flex;
+    max-width: 1000px;
+    margin: 0 auto;
+    margin-top: 15px;
+    padding-bottom: 15px;
+}
+
+.top_btn{
+    display: flex;
+    gap: 30px;
+}
+
+.contact_form{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.contact_form form{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.form_control{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    position: relative;
+}
+
+.form_control input{
+    height: 40px;
+    padding: 0 8px;
+    border: none;
+    border-radius: 10px;
+}
+.form_control textarea{
+    padding: 0 8px;
+    border: none;
+    border-radius: 10px;
+}
+
+.form_control label{
+    position: absolute;
+    top:-12px;
+    left: 15px;
+    background:linear-gradient(#A8BBA7,#ffffff) ;
+    padding: 0 10px;
+    border-radius: 20px;
+}
+
+.foodImage{
+    height: 450px;
+    margin-left: 100px;
+}
+.foodImage img{
+    height: 400px;
+    width: 500px;
+}
